@@ -33,7 +33,7 @@ jobs:
       - name: Preparar o site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./site
+          path: ./
 
       - name: Publicar
         id: deployment
